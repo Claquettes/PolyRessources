@@ -1,2 +1,1 @@
-# PolyRessources
-on the flux
+visit https://claq.fr/polyressources/
