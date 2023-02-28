@@ -1,13 +1,32 @@
 body {
-    background-color: #ffffff;
     padding: 0;
     margin: 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-size: xx-large
+    font-family: 'Roboto', sans-serif;
+    font-size:xx-large;
+    overflow: hidden;
 }
+
+canvas {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+h1, p {
+    background-color: black;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    margin: 50px 0;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+
 .menu_principal{
     width: 100%;
     height: 10%;
@@ -18,6 +37,7 @@ body {
     justify-content: center;
     align-items: center;
     color: #ffffff;
+    z-index: 1;
 }
 
 .container_matieres{
@@ -31,10 +51,12 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    z-index: 1;
 }
 
 .container_matieres a {
     text-decoration: none;
+    
 }
 
 .matiere{
@@ -46,6 +68,7 @@ body {
     justify-content: center;
     text-decoration: none;
     text-align: center;
+    z-index: 1;
 }
 
 .matiere:hover{
@@ -60,7 +83,8 @@ body {
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: red;
+    background-color: black;
     color: white;
     text-align: center;
+    z-index: 1;
   }
