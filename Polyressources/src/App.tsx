@@ -5,18 +5,21 @@ import "./App.css";
 
 //import the components
 import TopBar from "./components/TopBar";
+import CardMatiere from "./components/Card-matiere";
+import MatieresContainer from "./components/MatieresContainer";
+
+import Card from "react-bootstrap/Card";
+import CardGroup from "react-bootstrap/CardGroup";
 
 function App() {
   const [count, setCount] = useState(0);
 
   return (
     <>
-      <div>
-        <TopBar />
+      <TopBar />
+      <div className="MainContainer">
+        <CardMatiere />
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
     </>
   );
 }
