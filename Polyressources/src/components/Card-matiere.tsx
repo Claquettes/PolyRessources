@@ -60,7 +60,9 @@ function GroupExample() {
         <Card.Img variant="top" src="../public/icons/autre.png" />
         <Card.Body>
           <Card.Title>Autres</Card.Title>
-          <Card.Text>Ressources en vrac pour la peip1 et peip2.</Card.Text>
+          <Card.Text>
+            Ressources en vrac pour faciliter la Peip1 et la Peip2
+          </Card.Text>
         </Card.Body>
         <Card.Footer>
           <small className="text-muted">
