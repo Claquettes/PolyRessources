@@ -48,11 +48,15 @@
 }
 
 .card:hover{
-  background-color: #1a1a1a;
+  background-color: #e31799;
+  transition: 0.8s;
+  color: black;
+  cursor: pointer;
+  transform: scale(1.1);
 }
 
-.card a{
-  color: white;
+.card {
+  box-shadow: #e31799 2 2 2 2;
 }
 
 .card-group{
@@ -62,4 +66,14 @@
   align-items: center;
   flex-wrap: wrap;
 }
+
+.card-title{
+  font-size:2rem;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;;
+  margin-bottom: 1rem;
+  letter-spacing: 0.1rem; 
+}
+
+
 
