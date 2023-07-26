@@ -15,7 +15,7 @@
   justify-content: center;
   align-items: center;
   width: 80%;
-  background-color: #090c12
+  background-color: #090c12;
   border-radius: 2rem;
   padding: 2rem;
 
@@ -75,5 +75,10 @@
   letter-spacing: 0.1rem; 
 }
 
-
-
+.card-img-top{
+  padding: 1rem;
+  max-width: 5rem;
+  background-color: #e31799;
+  border-radius: 2rem;
+  padding: 2rem;
+}

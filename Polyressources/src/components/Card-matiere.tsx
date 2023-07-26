@@ -5,7 +5,11 @@ function GroupExample() {
   return (
     <CardGroup>
       <Card>
-        <Card.Img variant="top" src="holder.js/100px160" />
+        <Card.Img
+          variant="top"
+          src="../public/icons/math.png"
+          className="icon"
+        />
         <Card.Body>
           <Card.Title>Maths</Card.Title>
           <Card.Text>
@@ -17,7 +21,7 @@ function GroupExample() {
         </Card.Footer>
       </Card>
       <Card>
-        <Card.Img variant="top" src="holder.js/100px160" />
+        <Card.Img variant="top" src="../public/icons/computer-science.png" />
         <Card.Body>
           <Card.Title>Info</Card.Title>
           <Card.Text>
@@ -29,7 +33,7 @@ function GroupExample() {
         </Card.Footer>
       </Card>
       <Card>
-        <Card.Img variant="top" src="holder.js/100px160" />
+        <Card.Img variant="top" src="../public/icons/ballon.png" />
         <Card.Body>
           <Card.Title>SDM</Card.Title>
           <Card.Text>
@@ -41,7 +45,7 @@ function GroupExample() {
         </Card.Footer>
       </Card>
       <Card>
-        <Card.Img variant="top" src="holder.js/100px160" />
+        <Card.Img variant="top" src="../public/icons/boussole.png" />
         <Card.Body>
           <Card.Title>Orientation</Card.Title>
           <Card.Text>
@@ -53,7 +57,7 @@ function GroupExample() {
         </Card.Footer>
       </Card>
       <Card>
-        <Card.Img variant="top" src="holder.js/100px160" />
+        <Card.Img variant="top" src="../public/icons/autre.png" />
         <Card.Body>
           <Card.Title>Autres</Card.Title>
           <Card.Text>Ressources en vrac pour la peip1 et peip2.</Card.Text>
