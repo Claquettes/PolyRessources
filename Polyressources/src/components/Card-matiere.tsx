@@ -13,7 +13,8 @@ function GroupExample() {
         <Card.Body>
           <Card.Title>Maths</Card.Title>
           <Card.Text>
-            Ressources pour réussier en peip1 et peip2 en maths.
+            Ressources pour réussir les maths en Peip1 et Peip2, en DS et en
+            Khôlles.
           </Card.Text>
         </Card.Body>
         <Card.Footer>
