@@ -8,9 +8,6 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <>
-      <div className="TopBarApp">
-        <TopBar />
-      </div>
       <div className="MainContainer">
         <CardMatiere />
       </div>

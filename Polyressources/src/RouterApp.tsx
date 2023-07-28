@@ -14,15 +14,7 @@ function RouterApp() {
   return (
     <>
       <Router>
-        <Nav>
-          <Nav.Item>
-            <Link to="/">Home</Link>
-          </Nav.Item>
-          <Nav.Item>
-            <Link to="/Contact">Contact</Link>
-          </Nav.Item>
-        </Nav>
-        <a href="/Contact">Contact</a>
+        <TopBar />
         <Routes>
           <Route path="/" element={<App />} />
           <Route path="/Contact" element={<Contact />} />
