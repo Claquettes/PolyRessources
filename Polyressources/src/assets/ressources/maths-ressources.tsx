@@ -21,6 +21,13 @@ const MathsRessources: Ressource[] = [
     image:
       "https://mathspig.files.wordpress.com/2010/11/3-ihasafunny-cat-did-the-math-and-you-cannot-afford-the-dog1.jpg?w=584",
   },
+  {
+    title: "Bibmath",
+    description:
+      "Site de ressources de maths, exos corrigeés, cours, etc... pour réviser( licence) ou approfondir (prépa)",
+    link: "https://www.bibmath.net/ressources/index.php?action=affiche&quoi=mpsi/index",
+    image: "https://www.bibmath.net/actu/images/exercices.jpg",
+  },
 ];
 
 export default MathsRessources;
