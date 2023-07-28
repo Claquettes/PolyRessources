@@ -3,6 +3,7 @@ import "./RouterApp.css";
 
 import App from "./App";
 import TopBar from "./components/TopBar";
+import Footer from "./components/Footer";
 
 //import the pages
 import Contact from "./pages/Contact";
@@ -21,6 +22,7 @@ function RouterApp() {
           <Route path="/Contact" element={<Contact />} />
           <Route path="/Maths" element={<Maths />} />
         </Routes>
+        <Footer />
       </Router>
     </>
   );
