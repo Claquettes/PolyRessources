@@ -13,11 +13,11 @@ function TopBar() {
         Les Polyressources
       </a>
       <Nav>
-        <Nav.Item>
-          <Link to="/">Home</Link>
+        <Nav.Item className="nav-item-topbar">
+          <Link to="/">Acceuil</Link>
         </Nav.Item>
-        <Nav.Item>
-          <Link to="/Contact">Contact</Link>
+        <Nav.Item className="nav-item-topbar">
+          <a href="https://github.com/Claquettes/PolyRessources">Github</a>
         </Nav.Item>
       </Nav>
     </div>

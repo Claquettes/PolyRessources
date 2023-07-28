@@ -35,3 +35,7 @@ a:hover{
     align-items: center;
     flex-wrap: wrap;
 }
+
+.nav-item-topbar{
+    letter-spacing: 0.1rem;
+}

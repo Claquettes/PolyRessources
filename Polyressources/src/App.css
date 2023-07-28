@@ -32,12 +32,14 @@
 }
 
 .TopBar a {
-  padding: 2rem;
+  color: #e31799;
+  margin-left: 0.4rem;
+  padding: 1rem;
 }
 
 .card{
   background-color: black;
-  max-width: 30%;
+  max-width: 20%;
   margin: 1rem;
   border-radius: 2rem;
   padding: 2rem;
