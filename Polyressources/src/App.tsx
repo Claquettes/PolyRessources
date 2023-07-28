@@ -1,7 +1,5 @@
 import "./App.css";
 
-//import the components
-import TopBar from "./components/TopBar";
 import CardMatiere from "./components/Card-matiere";
 import Footer from "./components/Footer";
 
