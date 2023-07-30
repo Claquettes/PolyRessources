@@ -9,6 +9,7 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    margin-top: 2rem;
 }
 
 .MainContainer-matiere{
@@ -24,4 +25,13 @@ a{
     display: inline;
     color: #e31799;
     min-width: 29%;
+}
+
+.TopBar{
+    position: absolute;
+    top: -4rem;
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    padding: 0%;
 }
