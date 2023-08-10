@@ -40,9 +40,7 @@ function GroupExample() {
             </Card.Text>
           </Card.Body>
           <Card.Footer>
-            <small className="text-muted">
-              Guides, annales, conseils, tutos
-            </small>
+            <small className="text-muted">Guides, conseils, tutos</small>
           </Card.Footer>
         </Link>
       </Card>
@@ -57,7 +55,7 @@ function GroupExample() {
             </Card.Text>
           </Card.Body>
           <Card.Footer>
-            <small className="text-muted">Cheat Sheets, annales, vidéos</small>
+            <small className="text-muted">Tips, annales, vidéos</small>
           </Card.Footer>
         </Link>
       </Card>
