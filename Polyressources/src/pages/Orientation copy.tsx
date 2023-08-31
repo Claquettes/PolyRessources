@@ -9,7 +9,7 @@ import "../styles/Maths.css";
 //we import the maths ressources
 import SDMRessources from "../assets/ressources/autres-ressources.tsx";
 
-const sdm: React.FC = () => {
+const orient: React.FC = () => {
   return (
     <>
       <div className="container">
@@ -30,4 +30,4 @@ const sdm: React.FC = () => {
   );
 };
 
-export default sdm;
+export default orient;

@@ -7,13 +7,13 @@ import { Link } from "react-router-dom";
 import "../styles/Maths.css";
 
 //we import the maths ressources
-import SDMRessources from "../assets/ressources/orientation-ressources.tsx";
+import AutresRessources from "../assets/ressources/autres-ressources.tsx";
 
 const orient: React.FC = () => {
   return (
     <>
       <div className="container">
-        {SDMRessources.map((resource) => (
+        {AutresRessources.map((resource) => (
           //we create a bootstrap card for each ressource
           <Card className="mt-5">
             <Link to={resource.link}>
