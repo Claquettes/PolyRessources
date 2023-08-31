@@ -10,6 +10,7 @@ import Contact from "./pages/Contact";
 import Maths from "./pages/Maths";
 import Info from "./pages/Info";
 import SDM from "./pages/SDM";
+import Orientation from "./pages/Orientation";
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Nav } from "react-bootstrap";
@@ -25,6 +26,7 @@ function RouterApp() {
           <Route path="/Maths" element={<Maths />} />
           <Route path="/Info" element={<Info />} />
           <Route path="/SDM" element={<SDM />} />
+          <Route path="/Orientation" element={<Orientation />} />
           <Route path="*" element={<h1>404</h1>} />
         </Routes>
         <Footer />
