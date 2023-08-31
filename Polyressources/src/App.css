@@ -130,3 +130,15 @@ a{
   color: #e31799;
   text-decoration: none;
 }
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  background-color: #090c12;
+  border-radius: 2rem;
+  padding: 2rem;
+  font: 0.8em sans-serif;
+}

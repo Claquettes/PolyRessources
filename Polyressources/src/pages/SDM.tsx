@@ -7,13 +7,13 @@ import { Link } from "react-router-dom";
 import "../styles/Maths.css";
 
 //we import the maths ressources
-import InfoRessources from "../assets/ressources/info-ressources.tsx";
+import SDMRessources from "../assets/ressources/sdm-ressources.tsx";
 
 const math: React.FC = () => {
   return (
     <>
       <div className="container">
-        {InfoRessources.map((resource) => (
+        {SDMRessources.map((resource) => (
           //we create a bootstrap card for each ressource
           <Card className="mt-5">
             <Link to={resource.link}>
