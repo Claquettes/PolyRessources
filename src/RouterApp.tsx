@@ -26,7 +26,7 @@ function RouterApp() {
           <Route path="/SDM" element={<SDM />} />
           <Route path="/Orientation" element={<Orientation />} />
           <Route path="/Autres" element={<Autres />} />
-          <Route path="*" element={<h1>404</h1>} />
+          <Route path="*" element={<App />} />
         </Routes>
         <Footer />
       </Router>
