@@ -1,0 +1,153 @@
+#root {
+  position: relative;
+  width: 96%;
+  margin-left: 2%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #e31799;
+}
+
+
+body {
+   background: rgb(9,12,18);
+background: linear-gradient(227deg, rgba(9,12,18,1) 0%, rgba(92,16,69,1) 76%, rgba(227,23,153,1) 100%); 
+}
+.MainContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  border-radius: 2rem;
+  padding: 2rem;
+}
+
+.TopBar {
+  position: absolute;
+  top: 2rem;
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+  font-size: 2rem;
+  padding: 0%;
+
+}
+
+.MainContainer-matiere{
+ position: relative;
+ left: 50%;
+  transform: translateX(-50%); 
+}
+
+.TopBar a {
+  color: #e31799;
+  margin-left: 0.4rem;
+  padding: 1rem;
+}
+
+.card{
+  background-color: black;
+  max-width: 20%;
+  margin: 1rem;
+  border-radius: 2rem;
+  padding: 2rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  height: 14rem;
+  transition: 2s;
+  color: #e31799;
+
+}
+
+.card:hover{
+  background-color: #e31799;
+  transition: 0.8s;
+  color: black;
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+
+
+.card-group{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.card-title{
+  font-size:2rem;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;;
+  margin-bottom: 1rem;
+  letter-spacing: 0.1rem; 
+}
+
+.card-img-top{
+  padding: 1rem;
+  max-width: 4rem;
+  background-color: #e31799;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+.card-text{
+  margin-top: -1rem;
+  font-size: 0.7rem;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;;
+  letter-spacing: 0.1rem; 
+}
+
+.card-footer{
+  position: inherit;
+  bottom: 0;
+  width: 100%;
+  font-style: italic;
+}
+
+.TopBarApp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: blue;
+  height: 10rem;
+}
+
+.Footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  font-size: 0.9rem;
+  font-weight: bold;
+  letter-spacing: 0.1rem; 
+  padding: 1rem;
+}
+
+body{
+  background-color: #090c12;
+  color: #e31799;
+  font-family: 'Roboto', sans-serif;;
+}
+
+a{
+  color: #e31799;
+  text-decoration: none;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+
+  border-radius: 2rem;
+  padding: 2rem;
+  font: 0.8em sans-serif;
+}
