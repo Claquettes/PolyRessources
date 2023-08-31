@@ -1,9 +1,8 @@
 import "../styles/TopBar.css";
 
 //import the pages
-import Contact from "../pages/Contact";
 
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { Nav } from "react-bootstrap";
 
 function TopBar() {

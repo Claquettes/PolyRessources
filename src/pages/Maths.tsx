@@ -1,8 +1,7 @@
 import React from "react";
 
-import { useState } from "react";
-import { Card, Button, Modal } from "react-bootstrap";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { Card } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 //we import yhe css file
 import "../styles/Maths.css";
@@ -14,7 +13,7 @@ const math: React.FC = () => {
   return (
     <>
       <div className="container">
-        {MathsRessources.map((resource, index) => (
+        {MathsRessources.map((resource) => (
           //we create a bootstrap card for each ressource
           <Card className="mt-5">
             <Link to={resource.link}>
