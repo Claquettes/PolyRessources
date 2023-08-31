@@ -15,7 +15,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 80%;
+  width: 100%;
   background-color: #090c12;
   border-radius: 2rem;
   padding: 2rem;
@@ -30,6 +30,12 @@
   font-size: 2rem;
   padding: 0%;
 
+}
+
+.MainContainer-matiere{
+ position: relative;
+ left: 50%;
+  transform: translateX(-50%); 
 }
 
 .TopBar a {
