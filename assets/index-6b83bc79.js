@@ -10243,7 +10243,7 @@ function wm() {
           children: [
             v.jsx(R.Img, {
               variant: "top",
-              src: "../icons/math.png",
+              src: "https://claq.fr/host/math.png",
               className: "icon",
             }),
             v.jsxs(R.Body, {
@@ -10274,7 +10274,7 @@ function wm() {
           children: [
             v.jsx(R.Img, {
               variant: "top",
-              src: "../public/icons/computer-science.png",
+              src: "https://claq.fr/host/computer-science.png",
             }),
             v.jsxs(R.Body, {
               children: [
@@ -10298,7 +10298,10 @@ function wm() {
         children: v.jsxs(Ie, {
           to: "/SDM",
           children: [
-            v.jsx(R.Img, { variant: "top", src: "../public/icons/ballon.png" }),
+            v.jsx(R.Img, {
+              variant: "top",
+              src: "https://claq.fr/host/ballon.png",
+            }),
             v.jsxs(R.Body, {
               children: [
                 v.jsx(R.Title, { children: "SDM" }),
@@ -10323,7 +10326,7 @@ function wm() {
           children: [
             v.jsx(R.Img, {
               variant: "top",
-              src: "../public/icons/boussole.png",
+              src: "https://claq.fr/host/boussole.png",
             }),
             v.jsxs(R.Body, {
               children: [
@@ -10347,7 +10350,10 @@ function wm() {
         children: v.jsxs(Ie, {
           to: "/Autres",
           children: [
-            v.jsx(R.Img, { variant: "top", src: "../public/icons/autre.png" }),
+            v.jsx(R.Img, {
+              variant: "top",
+              src: "https://claq.fr/host/autre.png",
+            }),
             v.jsxs(R.Body, {
               children: [
                 v.jsx(R.Title, { children: "Autres" }),
