@@ -9,7 +9,7 @@ function GroupExample() {
         <Link to="/Maths">
           <Card.Img
             variant="top"
-            src="../public/icons/math.png"
+            src="https://claq.fr/host/math.png"
             className="icon"
           />
           <Card.Body>
@@ -31,7 +31,10 @@ function GroupExample() {
 
       <Card>
         <Link to="/Info">
-          <Card.Img variant="top" src="../public/icons/computer-science.png" />
+          <Card.Img
+            variant="top"
+            src="https://claq.fr/host/computer-science.png"
+          />
           <Card.Body>
             <Card.Title>Info</Card.Title>
             <Card.Text>
@@ -46,7 +49,7 @@ function GroupExample() {
 
       <Card>
         <Link to="/SDM">
-          <Card.Img variant="top" src="../public/icons/ballon.png" />
+          <Card.Img variant="top" src="https://claq.fr/host/ballon.png" />
           <Card.Body>
             <Card.Title>SDM</Card.Title>
             <Card.Text>
@@ -61,7 +64,7 @@ function GroupExample() {
 
       <Card>
         <Link to="/Orientation">
-          <Card.Img variant="top" src="../public/icons/boussole.png" />
+          <Card.Img variant="top" src="https://claq.fr/host/boussole.png" />
           <Card.Body>
             <Card.Title>Orientation</Card.Title>
             <Card.Text>
@@ -76,7 +79,7 @@ function GroupExample() {
 
       <Card>
         <Link to="/Autres">
-          <Card.Img variant="top" src="../public/icons/autre.png" />
+          <Card.Img variant="top" src="https://claq.fr/host/autre.png" />
           <Card.Body>
             <Card.Title>Autres</Card.Title>
             <Card.Text>
